@@ -6,6 +6,10 @@ O projeto usa **HTML, CSS, JavaScript, Vite e Three.js**, sem framework de inter
 
 ## Prévia do projeto
 
+▶ **[Assistir à demonstração do site (MP4 · 23 segundos · 5 MB)](https://raw.githubusercontent.com/OneBitCodeBlog/template-restaurante/main/docs/videos/demonstracao.mp4)**
+
+Gravação do site em funcionamento, com a transição 3D e a navegação pelas seções. Vídeo otimizado em 1600 × 890, a 30 fps.
+
 ### Apresentação com modelos 3D
 
 ![Página inicial da Casa da Esquina com bandeja de coxinhas em 3D](docs/screenshots/inicio.jpg)
