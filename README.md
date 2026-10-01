@@ -4,6 +4,16 @@ Template de site para restaurantes, com apresentação 3D controlada pela rolage
 
 O projeto usa **HTML, CSS, JavaScript, Vite e Three.js**, sem framework de interface e sem backend. O pedido e o pagamento acontecem fora do site.
 
+## Prévia do projeto
+
+### Apresentação com modelos 3D
+
+![Página inicial da Casa da Esquina com bandeja de coxinhas em 3D](docs/screenshots/inicio.jpg)
+
+### Galeria de pratos
+
+![Cardápio visual com filtros e fotos dos pratos](docs/screenshots/cardapio.jpg)
+
 ## Rodar localmente
 
 Requer Node.js **22.12 ou superior** e npm.
