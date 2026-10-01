@@ -1,0 +1,48 @@
+[
+  {
+    "name": "bandeja-v2.glb",
+    "originalBytes": 9187416,
+    "optimizedBytes": 1748120,
+    "trianglesBefore": 88008,
+    "trianglesAfter": 44004,
+    "textures": [
+      {
+        "format": "image/webp",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "format": "image/webp",
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ]
+  },
+  {
+    "name": "coxinha.glb",
+    "originalBytes": 12502828,
+    "optimizedBytes": 2189836,
+    "trianglesBefore": 189914,
+    "trianglesAfter": 94956,
+    "textures": [
+      {
+        "format": "image/webp",
+        "size": [
+          2048,
+          2048
+        ]
+      },
+      {
+        "format": "image/webp",
+        "size": [
+          1024,
+          1024
+        ]
+      }
+    ]
+  }
+]

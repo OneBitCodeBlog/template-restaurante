@@ -1,0 +1,36 @@
+/* Veneer is activated from an installed font until the licensed webfont is supplied. */
+@font-face {
+  font-family: 'Veneer';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Veneer'), local('Veneer Regular'), local('Veneer-Regular');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(barlow-400.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(barlow-500.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(barlow-600.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(barlow-700.ttf) format('truetype');
+}

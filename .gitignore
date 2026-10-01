@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+*.log
+
+# Research captures and obsolete local artifacts
+pesquisa/fontes/
+styleguide-ambiente-preview.png
+model-sources/bandeja.glb

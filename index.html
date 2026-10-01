@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#191513" />
+    <meta name="description" content="Casa da Esquina, em Janaúba. Uma boa mesa, petiscos e sabores que merecem um encontro." />
+    <title>Casa da Esquina · O sabor de um bom encontro</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='32' fill='%236B302C'/%3E%3Ctext x='17' y='47' font-family='Georgia' font-style='italic' font-size='52' fill='%23E8BC67'%3Ec%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="/assets/fonts/styleguide-fonts.css" />
+    <link rel="stylesheet" href="/src/site.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#experiencia">Pular para a apresentação</a>
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Casa da Esquina, início">casa da esquina<span>GASTRONOMIA & BONS ENCONTROS</span></a>
+      <nav class="main-nav" aria-label="Navegação principal"><a href="#sabores">Os sabores</a><a href="#casa">A casa</a><a href="#endereco">Como chegar</a></nav>
+      <a class="order-button header-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer">Pedir no iFood <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main id="inicio">
+      <section class="scroll-story" id="experiencia" aria-label="Da bandeja de coxinhas à coxinha em destaque">
+        <div class="story-stage">
+          <div class="hero-backdrop" aria-hidden="true"><img src="/assets/produtos/coxinha-de-cupim-acuolina.jpeg" alt="" decoding="async" /></div>
+          <div class="ambient-type" aria-hidden="true">à vontade.</div>
+          <div class="hero-grid">
+            <div class="story-copy">
+              <p class="eyebrow"><span></span> O SABOR DE UM BOM ENCONTRO</p>
+              <div class="copy-scenes">
+                <div class="copy-scene scene-intro">
+                  <h1>Toda boa<br>história começa<br><em>à mesa.</em></h1>
+                  <p class="intro-description">Chegue mais. Tem conversa boa,<br>mesa cheia e um sabor que fica.</p>
+                </div>
+                <div class="copy-scene scene-detail" aria-hidden="true" inert>
+                  <h2>Um pequeno<br>motivo para<br><em>querer mais.</em></h2>
+                  <p class="intro-description">Entre tantos sabores, um detalhe<br>rouba a cena. E abre o apetite.</p>
+                </div>
+              </div>
+              <div class="hero-action" id="hero-order">
+                <a class="order-button" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer">Deu vontade? Peça no iFood <span aria-hidden="true">↗</span></a>
+                <span class="action-note">Da nossa casa para a sua.</span>
+              </div>
+            </div>
+
+            <div class="art-stage" id="art-stage" role="img" aria-label="Bandeja de coxinhas em 3D que gira com a rolagem e dá lugar a uma coxinha em destaque">
+              <div class="art-halo" aria-hidden="true"></div>
+              <div class="art-orbit orbit-one" aria-hidden="true"></div>
+              <div class="art-orbit orbit-two" aria-hidden="true"></div>
+              <div class="floor-shadow" aria-hidden="true"></div>
+              <div class="canvas-wrap" id="canvas-wrap"></div>
+              <div class="transition-glow" aria-hidden="true"></div>
+              <div class="art-stamp" aria-hidden="true"><span>FEITO PARA</span><strong>dar<br><em>vontade.</em></strong><span>CASA DA ESQUINA</span></div>
+              <div class="art-caption"><span class="caption-line"></span><span id="art-caption-text">Bons sabores ficam ainda melhores juntos.</span></div>
+              <div class="loading" id="loading" role="status"><span class="loading-mark">c</span><span id="loading-text">Preparando a mesa…</span><span class="loading-track"><i id="loading-bar"></i></span></div>
+              <div class="fallback" id="fallback" hidden><img src="/assets/produtos/coxinha-de-cupim-acuolina.jpeg" alt="Porção de coxinhas da Casa da Esquina" /><span>Uma boa escolha para compartilhar.</span></div>
+            </div>
+          </div>
+          <div class="story-bottom">
+            <button class="scroll-invitation" id="scroll-invitation"><span class="scroll-icon" aria-hidden="true">↓</span><span id="scroll-label">Desça. Abra o apetite.</span></button>
+            <div class="story-progress" aria-label="Progresso da apresentação"><span class="progress-number" id="progress-number">01</span><span class="progress-track"><i id="progress-fill"></i></span><span class="progress-title" id="progress-title">À MESA</span></div>
+            <span class="bottom-signature">BOA COMIDA. BOA COMPANHIA.</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="welcome-strip" aria-hidden="true"><span>Boa comida.</span><i>✳</i><span>Boa companhia.</span><i>✳</i><span>Casa da Esquina.</span></div>
+      <section class="content-section flavors" id="sabores" aria-labelledby="flavors-title">
+        <div class="section-heading"><div><p class="eyebrow">01 / OS SABORES DA CASA</p><h2 id="flavors-title">Escolha com os olhos.<br><em>Volte pelo sabor.</em></h2></div><p>Do primeiro petisco à última colherada. Tem sempre um bom motivo para ficar mais um pouco à mesa.</p></div>
+        <div class="dish-filters" role="group" aria-label="Filtrar pratos"><button data-filter="todos" aria-pressed="true">Um pouco de tudo</button><button data-filter="petiscos" aria-pressed="false">Petiscos</button><button data-filter="grelhados" aria-pressed="false">Grelhados</button><button data-filter="burgers" aria-pressed="false">Burgers</button><button data-filter="sobremesas" aria-pressed="false">Sobremesas</button></div>
+        <p class="sr-only" id="filter-status" role="status"></p>
+        <div class="dish-grid">
+<article class="dish-card" data-dish="grelhados"><div class="dish-photo"><img src="/assets/produtos/maminha-ao-provolone-acuolina.jpeg" alt="Maminha ao provolone da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Grelhados</span><h3>Maminha ao provolone</h3><p>Com batata rústica, chimichurri, vinagrete e farofa.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Maminha ao provolone — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+<article class="dish-card" data-dish="petiscos"><div class="dish-photo"><img src="/assets/produtos/coxinha-de-cupim-acuolina.jpeg" alt="Coxinha de cupim da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Para compartilhar</span><h3>Coxinha de cupim</h3><p>Sem massa, com recheio de carne e creme de cheddar.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Coxinha de cupim — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+<article class="dish-card" data-dish="burgers"><div class="dish-photo"><img src="/assets/produtos/cheese-bacon-acuolina.jpeg" alt="Cheese Bacon da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Hambúrgueres</span><h3>Cheese Bacon</h3><p>Brioche, hambúrguer de 140 g, mussarela, bacon e maionese da casa.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Cheese Bacon — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+<article class="dish-card" data-dish="petiscos"><div class="dish-photo"><img src="/assets/produtos/chapa-mista-acuolina.jpeg" alt="Chapa mista da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Para compartilhar</span><h3>Chapa mista</h3><p>Carne de sol, lombo suíno, mandioca e batata frita. Chame a turma.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Chapa mista — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+<article class="dish-card" data-dish="petiscos"><div class="dish-photo"><img src="/assets/produtos/dadinho-de-tapioca-acuolina.jpeg" alt="Dadinho de tapioca da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Petiscos</span><h3>Dadinho de tapioca</h3><p>Pequenos bocados acompanhados de geleia de pimenta.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Dadinho de tapioca — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+<article class="dish-card" data-dish="grelhados"><div class="dish-photo"><img src="/assets/produtos/file-de-tilapia-acuolina.jpeg" alt="Filé de tilápia da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Grelhados</span><h3>Filé de tilápia</h3><p>Mini batatas, tomate cereja, azeitonas, alcaparras e molho de maracujá.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Filé de tilápia — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+<article class="dish-card" data-dish="burgers"><div class="dish-photo"><img src="/assets/produtos/supremo-acuolina.jpeg" alt="Supremo da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Hambúrgueres</span><h3>Supremo</h3><p>Dois hambúrgueres bovinos, cheddar cremoso e cebola caramelizada.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Supremo — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+<article class="dish-card" data-dish="sobremesas"><div class="dish-photo"><img src="/assets/produtos/brownie-com-sorvete-acuolina.jpeg" alt="Brownie com sorvete da Casa da Esquina" loading="lazy" width="800" height="600" /></div><div class="dish-copy"><span class="dish-label">Para fechar a noite</span><h3>Brownie com sorvete</h3><p>Chocolate e sorvete de creme. A última colherada também merece atenção.</p><a class="dish-order" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer" aria-label="Quero experimentar Brownie com sorvete — abrir iFood">Quero experimentar <span aria-hidden="true">↗</span></a></div></article>
+</div>
+        <div class="menu-bottom"><p>Encontrou seu próximo pedido?</p><a class="text-link" href="https://acuolina.com/pt/casa-da-esquina/62f81d41237340002367940c" target="_blank" rel="noopener noreferrer">Ver o cardápio completo <span aria-hidden="true">↗</span></a></div>
+      </section>
+      <section class="house-section" id="casa" aria-labelledby="house-title">
+        <div class="house-photo"><img src="/assets/produtos/coxinha-de-cupim-acuolina.jpeg" alt="Coxinhas servidas à mesa, com pessoas e luzes do restaurante ao fundo" loading="lazy" width="900" height="1100" /><span class="photo-caption">À mesa, na Casa da Esquina.</span></div>
+        <div class="house-copy"><p class="eyebrow">02 / PUXE UMA CADEIRA</p><h2 id="house-title">O melhor da noite<br>é quem senta<br><em>com você.</em></h2><p>Uma porção no meio da mesa. Uma conversa que rende. Entre petiscos, grelhados e hambúrgueres, o encontro ganha sabor aqui no Centro de Janaúba.</p><p>Venha com a sua turma. A próxima boa história pode começar nesta esquina.</p><a class="outline-button" href="#endereco">Vamos nos encontrar <span aria-hidden="true">↘</span></a><span class="house-signature">Comida boa. Conversa melhor ainda.</span></div>
+      </section>
+
+      <section class="experience-section content-section" aria-labelledby="experience-title">
+        <div class="section-heading"><div><p class="eyebrow">UM GOSTINHO DO ENCONTRO</p><h2 id="experience-title">A noite começa aqui.<br><em>Fique à vontade.</em></h2></div><p>Da primeira conversa ao prato na mesa. Uma pausa para aproveitar a companhia.</p></div>
+        <div class="experience-gallery">
+          <figure class="room-scene"><img src="/media/ambiente-ilustrativo.jpg" alt="Referência ilustrativa de salão de restaurante com mesas, plantas e iluminação quente; não é a Casa da Esquina" width="1600" height="1067" loading="lazy"><span class="demo-label">Foto ilustrativa · ambiente de referência</span><figcaption>O convite é ficar.</figcaption></figure>
+          <figure class="table-scene"><img src="/assets/produtos/coxinha-de-cupim-acuolina.jpeg" alt="Coxinhas de cupim servidas na Casa da Esquina" width="800" height="600" loading="lazy"><figcaption>O sabor é da casa.</figcaption></figure>
+        </div>
+        <div class="film-row"><div class="film-copy"><p class="eyebrow">DO ENCONTRO AO PRIMEIRO BOCADO</p><h3>De perto,<br>dá mais vontade.</h3><p>Aperte o play e entre no clima da mesa.</p><span class="media-note">Demonstração: prévia animada de uma foto do cardápio. O vídeo real entra aqui.</span></div><div class="film-player"><video id="table-film" controls playsinline muted preload="none" poster="/assets/produtos/chapa-mista-acuolina.jpeg" aria-label="Prévia animada ilustrativa da chapa mista" width="1280" height="720"><source src="/media/mesa-preview.mp4" type="video/mp4">Seu navegador não suporta vídeo.</video><span class="demo-label">Prévia animada · 6 segundos · sem áudio</span></div></div>
+      </section>
+      <section class="reviews-section content-section" aria-labelledby="reviews-title"><div class="section-heading"><div><p class="eyebrow">HISTÓRIAS QUE FICAM À MESA</p><h2 id="reviews-title">Quem vem tem<br><em>o que contar.</em></h2></div><p class="review-disclaimer">Avaliações fictícias para demonstrar o layout. Substituir por relatos reais antes da publicação.</p></div><div class="reviews-grid">
+        <figure class="review-card"><span class="demo-label">Depoimento fictício</span><div class="review-stars" aria-label="5 estrelas ilustrativas">★★★★★</div><blockquote>“Daqueles lugares em que a conversa rende e a gente acaba pedindo mais uma porção.”</blockquote><figcaption>Cliente de exemplo 01 <span>Encontro com amigos</span></figcaption></figure>
+        <figure class="review-card"><span class="demo-label">Depoimento fictício</span><div class="review-stars" aria-label="5 estrelas ilustrativas">★★★★★</div><blockquote>“A coxinha chegou à mesa e foi a primeira a acabar. Já quero repetir o pedido.”</blockquote><figcaption>Cliente de exemplo 02 <span>Noite de petiscos</span></figcaption></figure>
+        <figure class="review-card"><span class="demo-label">Depoimento fictício</span><div class="review-stars" aria-label="5 estrelas ilustrativas">★★★★★</div><blockquote>“Uma boa escolha para reunir a família, dividir os pratos e aproveitar a noite.”</blockquote><figcaption>Cliente de exemplo 03 <span>Mesa em família</span></figcaption></figure>
+      </div><a class="text-link review-source" href="https://www.google.com/maps/search/?api=1&amp;query=Casa+da+Esquina+Rua+Rui+Barbosa+107+Janauba+MG" target="_blank" rel="noopener noreferrer">Ver o perfil real da casa no Google <span aria-hidden="true">↗</span></a></section>
+      <section class="content-section location-section" id="endereco" aria-labelledby="location-title">
+        <div class="section-heading"><div><p class="eyebrow">03 / A GENTE SE ENCONTRA AQUI</p><h2 id="location-title">Seu próximo encontro<br><em>tem endereço.</em></h2></div></div>
+        <div class="location-grid"><div class="visit-info"><span class="dish-label">JANAÚBA · MINAS GERAIS</span><h3>Bem no Centro.<br>Bem à vontade.</h3><address>Rua Rui Barbosa, 107<br>Centro · Janaúba, MG</address><a class="text-link" href="https://www.google.com/maps/search/?api=1&amp;query=Casa+da+Esquina+Rua+Rui+Barbosa+107+Janauba+MG" target="_blank" rel="noopener noreferrer">Traçar minha rota <span aria-hidden="true">↗</span></a><div class="visit-contact"><p>Planejando a visita?</p><a href="https://wa.me/5538999445000" target="_blank" rel="noopener noreferrer">Fale com a casa · (38) 99944-5000 ↗</a><span>Consulte os horários de atendimento pelo WhatsApp.</span></div></div><div class="map-frame"><iframe title="Localização da Casa da Esquina em Janaúba" src="https://maps.google.com/maps?q=Casa%20da%20Esquina%20Rua%20Rui%20Barbosa%20107%20Janauba%20MG&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe><a href="https://www.google.com/maps/search/?api=1&amp;query=Casa+da+Esquina+Rua+Rui+Barbosa+107+Janauba+MG" target="_blank" rel="noopener noreferrer">Abrir no Google Maps ↗</a></div></div>
+      </section>
+      <section class="delivery-section" aria-labelledby="delivery-title"><p class="eyebrow">DA NOSSA CASA PARA A SUA</p><h2 id="delivery-title">Hoje a boa mesa<br><em>pode ser a sua.</em></h2><p>Escolha o que deu vontade.<br>O próximo encontro com esse sabor é por sua conta.</p><a class="order-button" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer">Pedir no iFood <span aria-hidden="true">↗</span></a><span class="delivery-note">Seu pedido é finalizado no iFood.</span><div class="delivery-decoration" aria-hidden="true">à vontade.</div></section>
+    </main>
+<footer class="site-footer"><a class="brand" href="#inicio">casa da esquina<span>JANAÚBA · MINAS GERAIS</span></a><div><a href="https://www.instagram.com/casadaesquinajba/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://wa.me/5538999445000" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a><a href="#sabores">Os sabores ↑</a></div><p>Boa comida. Boa companhia.</p></footer>
+<aside class="mobile-order-bar" aria-label="Fazer pedido" inert aria-hidden="true"><div><strong>Deu vontade?</strong><span>Leve esse sabor para casa.</span></div><a class="order-button" href="https://www.ifood.com.br/" target="_blank" rel="noopener noreferrer">Pedir no iFood <span aria-hidden="true">↗</span></a></aside>
+    <noscript><p class="noscript">Ative o JavaScript para explorar a apresentação. Casa da Esquina — Rua Rui Barbosa, 107, Centro, Janaúba. (38) 99944-5000.</p></noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
